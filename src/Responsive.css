@@ -95,6 +95,26 @@
         transition: all 0.5s linear;
         display: inline !important;
     }
+    .home-abt-flexbox{
+        position: relative;
+        width: 100%;
+      }
+      .home-abt-wrap{
+        width: 41vw;
+        height: auto;
+        margin-bottom: 40px;
+      }
+      .home-abt-imgBox{
+        position: relative;
+        width: 100%;
+        height: 320px;
+        margin-bottom: 20px;
+      }
+      .home-abt-img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
     
 
 
@@ -315,5 +335,60 @@ body.dark .nav-bw-menu-wrapper{
     font-size: 60px;
   }
 
+  .home-about-container{
+    padding: 50px 5%;
+    padding-bottom: 150px;
+  }
+  .home-abt-title{
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .home-abt-text{
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .home-abt-flexbox{
+    position: relative;
+    width: 100%;
+  }
+  .home-abt-wrap{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .home-abt-imgBox{
+    position: relative;
+    width: 100%;
+    height: 320px;
+    margin-bottom: 20px;
+  }
+  .home-abt-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .home-abt-person-name{
+    font-size: 16px;
+  }
+  .home-abt-person-title{
+    font-size: 14px;
+  }
+  .person-icon{
+    position: absolute;
+    font-size: 40px;
+    right: -10px;
+    bottom: -10px;
+    color: rgba(217, 166, 119, 0.1);
+    transition: all 0.5s linear;
+  }
+  .home-abt-wrap:hover .person-icon{
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+    color: rgba(217, 166, 119, 0.3);
+  }
 
 }

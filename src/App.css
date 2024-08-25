@@ -536,3 +536,106 @@ body.dark .hidden-icon{
   transition: all 0.5s linear;
   font-size: 14px;
 }
+.home-about-container{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 100px 5%;
+}
+.home-abt-title{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: Nunito-SemiBold;
+  margin-bottom: 20px;
+}
+.home-abt-text{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(186, 107, 33);
+}
+body.dark .home-abt-text{
+  color: rgb(217, 166, 119);
+}
+.home-abt-text-span{
+  color: black;
+  font-family: Nunito-SemiBold;
+}
+body.dark .home-abt-text-span{
+  color: white;
+}
+.home-abt-flexbox{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.home-abt-wrap{
+  position: relative;
+  width: 41vh;
+  height: 320px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: all 0.5s linear;
+}
+.home-abt-imgBox{
+  position: relative;
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all 0.5s linear;
+}
+.home-abt-img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+  object-position: center;
+  transition: all 0.5s linear;
+}
+.home-abt-wrap:hover .home-abt-img{
+  transform: scale(1.1);
+}
+.home-abt-person-name{
+  position: relative;
+  padding: 0 10px;
+  font-size: 20px;
+  font-family: Nunito-Light;
+  color: rgb(113, 63, 16);
+}
+body.dark .home-abt-person-name{
+  color: rgb(157, 157, 157);
+}
+.home-abt-person-title{
+  position: relative;
+  padding: 0 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-family: Nunito-Bold;
+  color: rgb(186, 107, 33);
+}
+.person-icon{
+  position: absolute;
+  font-size: 40px;
+  right: -10px;
+  bottom: -10px;
+  color: rgba(217, 166, 119, 0.1);
+  transition: all 0.5s linear;
+}
+.home-abt-wrap:hover .person-icon{
+  right: 10px;
+  bottom: 10px;
+  font-size: 30px;
+  color: rgba(217, 166, 119, 0.3);
+}

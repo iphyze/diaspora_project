@@ -28,7 +28,7 @@ const HomeIndex = () => {
         >
           <SwiperSlide className='home-slide-boxes'>
             <div className='slide-text animate__animated animate__fadeInUp'>
-              We focus our investments mainly on unique opportunities within the emerging Mobility sector.
+              We focus our investments mainly on unique opportunities within various sectors.
             </div>
             <NavLink to='/contact' className='contact-link-btn'>
               <div className='contact-link-bg'></div>

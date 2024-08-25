@@ -4,6 +4,7 @@ import HomeSectionTwo from './HomeSectionTwo';
 import HomeSectionThree from './HomeSectionThree';
 import HomeSectionFour from './HomeSectionFour';
 import HomeSectionFive from './HomeSectionFive';
+import About from './About';
 
 const HomeAll = () => {
   return (
@@ -13,6 +14,7 @@ const HomeAll = () => {
         <HomeSectionThree />
         <HomeSectionFour />
         <HomeSectionFive />
+        <About />
     </React.Fragment>
   )
 }
